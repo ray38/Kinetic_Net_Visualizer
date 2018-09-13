@@ -1,0 +1,827 @@
+{
+    "links": [
+        {
+            "source": "NONH",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NONH",
+            "target": "ONH",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "NH",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "OH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "OH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "ONH",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "NONH",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "HNNH",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HNNH(1)",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "HNNH(1)",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "NNH(1)",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "NNH(1)",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "OHNNH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "HNOH",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "HNHNOH",
+            "value": 3
+        },
+        {
+            "source": "NOH",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "NOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "NNH(1)",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "NNH(1)",
+            "value": 3
+        },
+        {
+            "source": "NONH",
+            "target": "NNH",
+            "value": 3
+        },
+        {
+            "source": "NONH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "NNOH",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "NNH(1)",
+            "value": 3
+        },
+        {
+            "source": "ONH",
+            "target": "NH",
+            "value": 3
+        },
+        {
+            "source": "ONH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "ON",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "HNNH",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "ONH",
+            "value": 3
+        },
+        {
+            "source": "NNH(1)",
+            "target": "NN",
+            "value": 3
+        },
+        {
+            "source": "NNH(1)",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "NOH",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "HHNNOH",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNH(1)",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HNNH(1)",
+            "target": "NNH(1)",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "NNH",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "ON",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "ON",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "HNOH",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "ONHNH",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "NOH",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "ON",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "ONNH",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "NON",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "NN",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NN",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "OHNHNH",
+            "value": 3
+        },
+        {
+            "source": "NONH",
+            "target": "NON",
+            "value": 3
+        },
+        {
+            "source": "NONH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "ONNH",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "HNNH(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "NH",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "OO",
+            "target": "O",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNOH",
+            "target": "NOH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "ONH",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "NHNOH",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "HNNH(1)",
+            "value": 3
+        },
+        {
+            "source": "NNH",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NNH",
+            "target": "NH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "ONHNH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "NN",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "ONH",
+            "target": "ON",
+            "value": 3
+        },
+        {
+            "source": "ONH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "HNNH",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "NOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "NOH",
+            "target": "ON",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "NONH",
+            "value": 3
+        },
+        {
+            "source": "OHNNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "ONNH",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "ONHNH",
+            "target": "HNNH(1)",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "NNH",
+            "value": 3
+        },
+        {
+            "source": "HNNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "NNH",
+            "target": "NN",
+            "value": 3
+        },
+        {
+            "source": "NNH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "HNHNH",
+            "value": 3
+        },
+        {
+            "source": "OHNHNH",
+            "target": "O(1)",
+            "value": 3
+        },
+        {
+            "source": "NON",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NON",
+            "target": "ON",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NNOH",
+            "target": "NOH",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "HNNOH",
+            "value": 3
+        },
+        {
+            "source": "HHNNOH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "NH",
+            "value": 3
+        },
+        {
+            "source": "HNHNH",
+            "target": "HNH",
+            "value": 3
+        },
+        {
+            "source": "NH",
+            "target": "N",
+            "value": 3
+        },
+        {
+            "source": "NH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "HNH",
+            "target": "NH(1)",
+            "value": 3
+        },
+        {
+            "source": "HNH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "H",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "OHNNH",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "NNOH",
+            "value": 3
+        },
+        {
+            "source": "HNNOH",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "NH(1)",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NH(1)",
+            "target": "H(2)",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "HNHNH",
+            "value": 3
+        },
+        {
+            "source": "HHNHNOH",
+            "target": "OH",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "N(1)",
+            "value": 3
+        },
+        {
+            "source": "NHNOH",
+            "target": "HNOH",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "HNNOH",
+            "value": 3
+        },
+        {
+            "source": "HNHNOH",
+            "target": "H(1)",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "NON",
+            "value": 3
+        },
+        {
+            "source": "ONNH",
+            "target": "H(2)",
+            "value": 3
+        }
+    ],
+    "nodes": [
+        {
+            "group": 1,
+            "id": "ONHNH"
+        },
+        {
+            "group": 1,
+            "id": "HNHNH"
+        },
+        {
+            "group": 1,
+            "id": "O"
+        },
+        {
+            "group": 1,
+            "id": "OHNNH"
+        },
+        {
+            "group": 1,
+            "id": "N(1)"
+        },
+        {
+            "group": 1,
+            "id": "OHNHNH"
+        },
+        {
+            "group": 1,
+            "id": "O(1)"
+        },
+        {
+            "group": 1,
+            "id": "N"
+        },
+        {
+            "group": 1,
+            "id": "HHNNOH"
+        },
+        {
+            "group": 1,
+            "id": "NNH(1)"
+        },
+        {
+            "group": 1,
+            "id": "NHNOH"
+        },
+        {
+            "group": 1,
+            "id": "ONH"
+        },
+        {
+            "group": 1,
+            "id": "ONNH"
+        },
+        {
+            "group": 1,
+            "id": "NONH"
+        },
+        {
+            "group": 1,
+            "id": "HNOH"
+        },
+        {
+            "group": 1,
+            "id": "ON"
+        },
+        {
+            "group": 1,
+            "id": "HNHNOH"
+        },
+        {
+            "group": 1,
+            "id": "H(1)"
+        },
+        {
+            "group": 1,
+            "id": "OO"
+        },
+        {
+            "group": 1,
+            "id": "NN"
+        },
+        {
+            "group": 1,
+            "id": "OH"
+        },
+        {
+            "group": 1,
+            "id": "HNNH(1)"
+        },
+        {
+            "group": 1,
+            "id": "H"
+        },
+        {
+            "group": 1,
+            "id": "NH(1)"
+        },
+        {
+            "group": 1,
+            "id": "NNOH"
+        },
+        {
+            "group": 1,
+            "id": "HHNHNOH"
+        },
+        {
+            "group": 1,
+            "id": "HNNOH"
+        },
+        {
+            "group": 1,
+            "id": "HNNH"
+        },
+        {
+            "group": 1,
+            "id": "NON"
+        },
+        {
+            "group": 1,
+            "id": "NNH"
+        },
+        {
+            "group": 1,
+            "id": "HNH"
+        },
+        {
+            "group": 1,
+            "id": "NH"
+        },
+        {
+            "group": 1,
+            "id": "H(2)"
+        },
+        {
+            "group": 1,
+            "id": "NOH"
+        }
+    ]
+}
