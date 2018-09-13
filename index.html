@@ -61,6 +61,7 @@ d3.json("convert_result.json", function(error, graph) {
 
   node.append("circle")
     .attr("r", 5)
+    //.attr("r", function(d) { return d.r*10; })
     .attr("fill", function(d) { return color(d.group); });
 
   node.append("text")
