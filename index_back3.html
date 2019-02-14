@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+  <head>
+    <meta charset="utf-8">
+    <style>
+
+      .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+      }
+
+      .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+      }
+      label {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+
+      div.tooltip {
+          position: absolute;
+          background-color: white;
+          max-width; 200px;
+          height: auto;
+          padding: 1px;
+          border-style: solid;
+          border-radius: 4px;
+          border-width: 1px;
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, .5);
+          pointer-events: none;
+        }
+    </style>
+  </head>
+  <body>
+    <p id="uploader_wrapper">
+      <input id="uploader" name="uploader" type="file" />
+    </p>
+    <svg width="1920" height="1080"></svg>
+    <p id="controller_wrapper" style="display:none;">
+      <label><input style="width:240px;" id="link_strength_controller" type="range" min="0" max="1" step="any" value="0.5"> Link Strength</label>
+    </p>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="visualize2.js"></script>
+
+
+  </body>
+
+</script>

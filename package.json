@@ -1,0 +1,33 @@
+{
+  "name": "KineticVisualizer",
+  "version": "0.1.0",
+  "description": "Test",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "babel --presets es2015 es6 -d es5",
+    "pack": "build --dir",
+    "dist": "build -w",
+    "package-win": "electron-packager . KineticVisualizer --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='KineticVisualizer'",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+    "package-linux": "electron-packager . KineticVisualizer --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+  },
+  "build": {
+    "appId": "ray38.medfordgroup.KineticNetVisualizer",
+    "productName": "KineticNetVisualizer",
+    "win":{
+      "publisherName": "Xiangyun Lei"
+    }
+  },
+  "repository": "https://github.com/ray38/Kinetic_Net_Visualizer",
+  "keywords": [
+    "KineticNetVisualizer"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.7.8",
+    "electron-builder": "^20.5.1",
+    "electron-packager": "^11.1.0"
+  }
+}
