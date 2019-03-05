@@ -14,7 +14,9 @@ import sys
 def viz_main(data):
 
     cef.Initialize()
-    browser_setting = {"file_access_from_file_urls_allowed":True}
+    browser_setting = { "file_access_from_file_urls_allowed":True,\
+                        "universal_access_from_file_urls_allowed": True,\
+                        "web_security_disabled":True}
     browser = cef.CreateBrowserSync(url='file://' + os.path.realpath("index_no_read.html"),
                                     window_title="Kinetic Visualizer", settings = browser_setting)
     browser.SetClientHandler(LoadHandler(data))

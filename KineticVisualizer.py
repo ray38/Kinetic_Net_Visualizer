@@ -4,7 +4,7 @@ inter-process messaging with the use of Javascript Bindings.
 """
 
 from cefpython3 import cefpython as cef
-import webbrowser
+#import webbrowser
 import csv
 import json
 import os
@@ -12,9 +12,13 @@ import sys
 
 
 def viz_main(data):
+
     cef.Initialize()
-    browser = cef.CreateBrowserSync(url='file:///index_no_read.html',
-                                    window_title="Javascript Bindings")
+    browser_setting = { "file_access_from_file_urls_allowed":True,\
+                        "universal_access_from_file_urls_allowed": True,\
+                        "web_security_disabled":True}
+    browser = cef.CreateBrowserSync(url='file://' + os.path.realpath("index_no_read.html"),
+                                    window_title="Kinetic Visualizer", settings = browser_setting)
     browser.SetClientHandler(LoadHandler(data))
     bindings = cef.JavascriptBindings()
     browser.SetJavascriptBindings(bindings)
