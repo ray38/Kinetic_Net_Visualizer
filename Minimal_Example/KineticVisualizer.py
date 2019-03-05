@@ -14,8 +14,9 @@ import sys
 def viz_main(data):
 
     cef.Initialize()
+    browser_setting = {"file_access_from_file_urls_allowed":True}
     browser = cef.CreateBrowserSync(url='file://' + os.path.realpath("index_no_read.html"),
-                                    window_title="Javascript Bindings")
+                                    window_title="Kinetic Visualizer", settings = browser_setting)
     browser.SetClientHandler(LoadHandler(data))
     bindings = cef.JavascriptBindings()
     browser.SetJavascriptBindings(bindings)
