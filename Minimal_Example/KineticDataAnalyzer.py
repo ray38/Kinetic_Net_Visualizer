@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 Communicate between Python and Javascript asynchronously using
 inter-process messaging with the use of Javascript Bindings.

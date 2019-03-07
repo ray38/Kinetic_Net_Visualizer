@@ -26,7 +26,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
@@ -38,7 +38,6 @@ function createWindow () {
 }
 
 app.commandLine.appendSwitch('js-flags', '--max-old-space-size=16384');
-console.log('test')
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
